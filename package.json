@@ -1,0 +1,26 @@
+{
+  "name": "mlc_converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfredoespal97/mlc_converter.git"
+  },
+  "author": "Alfredo R Espinosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alfredoespal97/mlc_converter/issues"
+  },
+  "homepage": "https://github.com/alfredoespal97/mlc_converter#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
