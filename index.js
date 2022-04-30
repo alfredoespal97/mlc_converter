@@ -1,4 +1,4 @@
-const PORT=5000
+const PORT=3000
 const express=require('express')
 const axios=require('axios')
 const cheerio=require('cheerio')
@@ -10,7 +10,7 @@ const app=express()
 const cornies=[]
 
 app.get('/',(req,res)=>{
-    res.json('Welcome');
+    res.json('Welcome to MLC converter');
 })
 
 app.get('/mlc',(req,res)=>{
