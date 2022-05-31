@@ -25,7 +25,7 @@ app.get('/mlc',(req,res)=>{
                     corner
                 })
             })
-            res.json(cornies)
+            res.json({cornies:cornies});
             this.cornies=[];
         }).catch((err)=>console.log(err))
                 
