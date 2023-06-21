@@ -14,7 +14,7 @@ app.get('/',(req,res)=>{
 
 app.get('/mlc',(req,res)=>{
 
-    axios.get('https://eltoque.com/tasas-de-cambio-de-moneda-en-cuba-hoy')
+    axios.get('https://eltoque.com/')
         .then((response)=>{
             const html=response.data
             const $=cheerio.load(html)
